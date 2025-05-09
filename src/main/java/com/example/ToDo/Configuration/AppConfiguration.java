@@ -77,7 +77,8 @@ public class AppConfiguration {
                     "http://localhost:3000",
                     "http://localhost:4000",
                     "http://localhost:4200",
-                    "http://127.0.0.1:5500"
+                    "http://127.0.0.1:5500",
+                    "https://todo-zeta-blond-83.vercel.app"
             ));
             cfg.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
             cfg.setAllowCredentials(true);
